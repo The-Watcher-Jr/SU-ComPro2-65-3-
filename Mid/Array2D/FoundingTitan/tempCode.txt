@@ -1,0 +1,26 @@
+
+import java.util.Scanner;
+
+public class FoundingTitan {
+
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+        
+        /*
+		1.build a walls Wall Maria,Wall Rose,Wall Sina
+		2.Order Of The FoundingTitan 
+		[your code in java]
+	  */
+
+        System.out.println("WALL MAP [" + (size_wall * size_wall) + "]");
+        for (int i = 0; i < size_wall; i++) {
+            for (int j = 0; j < size_wall; j++) {
+                System.out.print(wall[i][j] + " ");
+            }
+            System.out.println("");
+        }
+        System.out.println("WALL MAP [" + (size_wall * size_wall) + "]");
+    }
+
+}
